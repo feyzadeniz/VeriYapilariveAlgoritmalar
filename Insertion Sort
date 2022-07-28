@@ -1,0 +1,27 @@
+[22,27,16,2,18,6] -> Insertion Sort
+(anlatılan derste bu konu hatalı anlatılmıştı o yüzden doğru şeklini projeye yazacağım.)
+
+Aşamaları:
+
+1) Dizinin ikinci elemanından başlıyoruz. 27 ikinci eleman, solundaki sayılarla kıyas edeceğiz. 22 ile kıyas ettiğimizde küçükten büyüğe sıralama yapacağımız için sabit bıraktık.
+2) Üçüncü elemanı solundakilerle kıyas edelim:
+Dizi [16,22,27,2,18,6] halini alır.
+3) Dördüncü elemanı kıyaslarsak dizi [2,16,22,27,18,6] olur.
+5) Beşinci elemanı solundakilerle kıyaslıyoruz. [2,16,18,22,27,6] oldu.
+6) Sonuncu elemanı kıyasladığımızda sıralama [2,6,16,18,22,27] halini alır.
+
+Big-O Notation: O(n^2) 
+
+Average Case: Aradığımız sayının ortada olması (18 sayısı average case kapsamına girer.).
+Worst Case: Aradığmız sayının sonda olması.
+Best Case: Aradığımız sayının en başta olması.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Insertion Sort'a göre ilk 4 adımını yazınız.
+
+1) [3,7,5,8,2,9,4,15,6] (ikinci elemanla kıyaslama yapmaya başladık.)
+2) [3,5,7,8,2,9,4,15,6]
+3) [3,5,7,8,2,9,4,15,6]
+4) [2,3,5,7,8,9,4,15,6]
+
+
+
